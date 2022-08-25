@@ -42,6 +42,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <Link href="/about/mypage">Got to MyPage</Link>
       </section>
     </Layout>
   );
