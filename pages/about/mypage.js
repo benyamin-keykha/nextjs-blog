@@ -18,7 +18,7 @@ const MyPage = () => {
   return (
     <>
       <ul>
-        {posts.blogs.map((itm, i) =>
+        {posts.blogs && posts.blogs.map((itm, i) =>
           <li key={i}>{itm.title}</li>
         )}
       </ul>
